@@ -1,0 +1,11 @@
+ansible--version
+
+sudo apt install ansibe-core
+
+sudo apt-get install vim
+
+nano filename.yml
+
+vim filenmae.yml (ESC + :q! to exit vim editor)
+
+ansible-playbook filename.yml
