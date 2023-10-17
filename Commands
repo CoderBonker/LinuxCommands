@@ -15,10 +15,16 @@ git config user.email "email"
 }
 
 
-[Pushing code to GitHub from Terminal]
+{Pushing code to GitHub from Terminal}
 
 git clone <link>
 git status
 git add *
 git commit -m "message" (ctrl x + ctrl c & :wq to exit editor if -m not given)
 git push
+
+{Pushing through Branch}
+
+git branch <branch name>
+git checkout_<branch name> [moves to the new branch we created]
+git push -f -origin -test

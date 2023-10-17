@@ -1,0 +1,39 @@
+Playbooks:
+
+~ task is the application of a module to perform a specific unit of work
+~ play is a sequence of tasks to be appliied to one or more hosts selected from your inventory
+~ playbooks is a text file containing a list of one or more plays to run in a specific order
+
+Playbook is a text file written in YAML, extension= .yml,uses indentation with space characters to indicate the structure of data.
+Indentaion rules: (indent alwasy with space and NOT tab)
+* data elements at the same hierarchy must have same indentation
+* child items should be indented more than thier parents
+ Types:
+
+ 
+Playbooks starts with --- and ends with ... (optional)
+play & task is a collection of key-value pairs.
+Keys in the same play should have same indentation.
+
+Modules:
+Modules are tools the plays use to accomplish tasks. The default execution environment will have hundreds of pre-written modules which do specific tasks.
+
+basic keys:
+~ name - to give a name, to identify the purpose of the play
+~ hosts - hosts against which the play's tasks are run (names of managed hosts or groups in inventory)
+
+
+
+
+
+
+
+Inventory:
+An inventory defines a collection of hosts that ansible manages.
+
+Types:
+~ Static inevtory: contains host names or ip addresses in a single line.
+ ~ When managed hosts are grouped in host groups, host griup name starts with []
+ ~ Two host groups exist - a l l host group with every host explicitly listed in inventory, ungrouped host groups contains every host that is not a prt of any other host group.
+
+~Dynamic inventory:

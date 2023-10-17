@@ -1,3 +1,5 @@
+Basic commands:
+
 ansible--version [to check version]
 
 sudo apt install ansibe-core
@@ -12,6 +14,10 @@ ansible-playbook filename.yml [to run playbook]
 
 ansibe-playbook <filename.yml>--syntax-check [to check syntax errors]
 
+ansibe-navigator run [to run playbook and name of the playbook is passed as an argument]
+
+lab start playbook-basic [sets up and ensures the environment is ready for the playbook to run]
+
 
 
 Docker Container:
@@ -21,3 +27,11 @@ docker stop [to stop a running docker conatainer ID]
 docker rm [to remove a docker conatainer]
 docker ps [to list all the docker conatainers]
 docker exec -it <container_ID> /bin/bash [accesing the container and id will be found when ps command is used]
+
+Inventory:
+
+~ ansible-navigator inventory [to verify a machines presence inside an inventory]
+ ~ ansibe-navigator inventory -m stdout --list [to list all hosts]
+ ~ ansibe-navigator inventory -m stdout --<group name>
+ ~ ansibe-navigator.yml [to change default options for ansible-navigator command] 
+ 
