@@ -1,11 +1,23 @@
-ansible--version
+ansible--version [to check version]
 
 sudo apt install ansibe-core
 
-sudo apt-get install vim
+sudo apt-get install vim [to install vim editor pacakge]
 
-nano filename.yml
+vim filenmae.yml (ESC + :q! to exit vim editor) [to open vim editor]
 
-vim filenmae.yml (ESC + :q! to exit vim editor)
+nano filename.yml [to open a nano editor]
 
-ansible-playbook filename.yml
+ansible-playbook filename.yml [to run playbook]
+
+ansibe-playbook <filename.yml>--syntax-check [to check syntax errors]
+
+
+
+Docker Container:
+
+docker run [to start a new docker  container from an image]
+docker stop [to stop a running docker conatainer ID]
+docker rm [to remove a docker conatainer]
+docker ps [to list all the docker conatainers]
+docker exec -it <container_ID> /bin/bash [accesiing the conatiner and id will be found when ps command is used]
