@@ -2,10 +2,17 @@ mkdir : make or create directory
 cd : change directory 
 ls : list the itemsin the directory [ls -r, ls -ls, ls -a, ls -al]
 history : to spill out all previously used command [history -d <line number>, history -c <to clear all history>]
+pwd : [print working/current directory]
+useradd and usermod : [Add new user or change existing users data]
+passwd : [Create or update passwords for existing use]
+cat: [create a file, display content of the file, copy the content of one file to another file]
 
+
+{
 git init
 git config user.name "name"
 git config user.email "email"
+}
 
 
 [Pushing code to GitHub from Terminal]
