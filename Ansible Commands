@@ -1,8 +1,6 @@
-Basic commands:
+! Basic commands:
 
 ansible--version [to check version]
-
-sudo apt install ansibe-core
 
 sudo apt-get install vim [to install vim editor pacakge]
 
@@ -16,7 +14,9 @@ ansibe-playbook <filename.yml>--syntax-check [to check syntax errors]
 
 ansibe-navigator run [to run playbook and name of the playbook is passed as an argument]
 
-lab start playbook-basic [sets up and ensures the environment is ready for the playbook to run]
+~ lab start playbook-basic [sets up and ensures the environment is ready for the playbook to run]
+
+~ lab finish playbook-basic [to conclude current exercise and previous resources do not affect upcoming resources]
 
 
 

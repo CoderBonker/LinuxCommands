@@ -6,7 +6,7 @@ pwd : [print working/current directory]
 useradd and usermod : [Add new user or change existing users data]
 passwd : [Create or update passwords for existing use]
 cat: [create a file, display content of the file, copy the content of one file to another file]
-
+clear: [to clear stuff and have a fresh terminal]
 
 {
 git init

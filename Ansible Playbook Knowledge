@@ -22,12 +22,6 @@ basic keys:
 ~ name - to give a name, to identify the purpose of the play
 ~ hosts - hosts against which the play's tasks are run (names of managed hosts or groups in inventory)
 
-
-
-
-
-
-
 Inventory:
 An inventory defines a collection of hosts that ansible manages.
 
