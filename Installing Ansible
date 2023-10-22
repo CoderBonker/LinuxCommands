@@ -5,3 +5,7 @@ sudo apt install software-properties-common
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 
 sudo apt install ansible
+
+~ lab start playbook-basic [sets up and ensures the environment is ready for the playbook to run]
+
+~ lab finish playbook-basic [to conclude current exercise and previous resources do not affect upcoming resources]

@@ -1,9 +1,5 @@
 ! Basic commands:
 
-ansible--version [to check version]
-
-sudo apt-get install vim [to install vim editor pacakge]
-
 vim filenmae.yml (ESC + :q! to exit vim editor) [to open vim editor]
 
 nano filename.yml [to open a nano editor]
@@ -13,10 +9,6 @@ ansible-playbook filename.yml [to run playbook]
 ansibe-playbook <filename.yml>--syntax-check [to check syntax errors]
 
 ansibe-navigator run [to run playbook and name of the playbook is passed as an argument]
-
-~ lab start playbook-basic [sets up and ensures the environment is ready for the playbook to run]
-
-~ lab finish playbook-basic [to conclude current exercise and previous resources do not affect upcoming resources]
 
 
 
